@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Injector</title>
+    <link rel="stylesheet" href="CODIGO.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SQL Injector</h1>
+        <form id="sqlForm">
+            <textarea id="comandos" name="comandos" placeholder="Digite seus comandos SQL aqui..."></textarea>
+            <button type="submit">EXECUTAR</button>
+        </form>
+  <div class="fab" id="toggle-btn" onclick="toggleInjection()">
+    <div class="circle"></div>
+  </div>
+        <div class="resultado">
+            <h2>RESULTADO:</h2>
+            <textarea id="resultado" class="result-textarea" readonly></textarea>
+        </div>
+    </div>
+    <script src="CODIGO.js"></script>
+</body>
+</html>

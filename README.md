@@ -91,6 +91,7 @@ Aqui estão alguns exemplos de comandos SQL que você pode experimentar no aplic
 * [CURSO DE HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
 * [CURSO DE JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
 * [CURSO DE PHP](https://github.com/VILHALVA/CURSO-DE-PHP)
+* [CURSO DE JQUERY](https://github.com/VILHALVA/CURSO-DE-JQUERY)
 * [VEJA MAIS EXEMPLOS DE COMANDOS NO CURSO DE POSTGRESQL](https://github.com/VILHALVA/CURSO-DE-POSTGRESQL)
 * [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 

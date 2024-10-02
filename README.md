@@ -30,7 +30,7 @@ Este aplicativo é um SQL Injector, desenvolvido em PHP, HTML, CSS e JavaScript.
 
 ## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`. 
+   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`.
 
 2. **Configuração do PHP:**
    - Abra o arquivo `CODIGO.php` e ajuste as configurações do banco de dados:
@@ -42,20 +42,27 @@ Este aplicativo é um SQL Injector, desenvolvido em PHP, HTML, CSS e JavaScript.
      $database = "injector";
      ```
 
-3. **Executando o Aplicativo:**
+3. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.html`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.html](http://localhost/CODIGO/index.html).
 
-4. **Digite os Comandos SQL:**
+4. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080/index.html](http://localhost:8080/index.html).
+
+5. **Digite os Comandos SQL:**
    - No campo de texto do formulário, digite os comandos SQL que deseja executar no banco de dados.
 
-5. **Ative a Injeção (Opcional):**
+6. **Ative a Injeção (Opcional):**
    - Se desejar permitir a execução dos comandos SQL, clique no botão de alternância para ativá-lo. Isso indicará que a injeção SQL está habilitada.
 
-6. **Execute os Comandos SQL:**
+7. **Execute os Comandos SQL:**
    - Depois de inserir os comandos SQL desejados, clique no botão "EXECUTAR" para enviar os comandos para processamento.
 
-7. **Veja os Resultados:**
+8. **Veja os Resultados:**
    - Os resultados da execução dos comandos SQL serão exibidos na área de resultado abaixo do formulário.
 
 ## EXEMPLOS DE COMANDOS:
